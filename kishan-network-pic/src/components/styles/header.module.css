@@ -1,0 +1,24 @@
+.heading{
+    background-color: #28373e;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.heading_options{
+    display: flex;
+    gap: 40px;
+    color: #72858a;
+}
+.logo{
+    color: #2ec3c2;
+}
+.heading+div{
+    background-color: #8198a0;
+    color: white;
+    padding: 40px 0px 40px 10%;
+   
+}
+.heading+div span{
+    font-size: 1.5rem;
+    background-color: #eeac56;
+}
