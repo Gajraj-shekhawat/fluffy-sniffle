@@ -1,10 +1,134 @@
-/*.container {
+.container {
     display: flex;
     padding: 0 10%;
     gap: 10px;
-    /* text-align: justify; */
-/* * */
+}
 
-h2{
+.float {
     float: right;
+    width: 25%;
+}
+
+.float>p {
+    text-align: end;
+}
+
+.more_series {
+    clear: both;
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
+}
+
+.more_series>div:first-child,
+.more_series>div:last-child {
+    width: 30%;
+    height: 1px;
+    background-color: grey;
+
+}
+
+.more_series>div:nth-child(2) {
+    width: 38%;
+    text-align: center;
+}
+
+.more_series_options {
+    display: flex;
+    gap: 10px
+}
+
+.more_series_options h2 {
+    color: #0fdbc9;
+}
+
+.right_div {
+    width: 100%;
+}
+
+.menu_items {
+    border: 1px solid black;
+
+}
+
+.menu_items p:hover {
+    background-color: #0fdbc9;
+    cursor: pointer;
+    color: white;
+}
+
+.menu_items>h6 {
+    text-align: center;
+}
+
+.menu_items p {
+    padding-left: 10px;
+    color: #0fdbc9;
+}
+
+.profile {
+    background-color: rgb(192, 190, 190);
+    position: relative;
+}
+
+.profile_row {
+    display: flex;
+    gap: 10px;
+    place-items: center;
+    line-height: 5px;
+    padding-left: 12px;
+}
+
+.profile>img {
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.profile_pic {
+    position: absolute;
+    top: 30%;
+    left: 35%
+}
+
+.profile_pic>img {
+    border-radius: 50%;
+    width: 40%;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.profile_row_container {
+    padding: 10px;
+}
+
+.message_tray {
+    background-color: grey;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.message_tray button {
+    width: 100%;
+    background-color: #0fdbc9;
+    color: white;
+    border: none;
+    padding: 9px 0;
+    border-radius: 3px;
+}
+.message_tray >div{
+margin-bottom: 15px;
+}
+.message_tray>h6{
+    text-align: center;
+}
+.related_articles{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+}
+.related_articles> div{
+    width: 350px;
+    padding: 40px 40px 40px 0;
 }

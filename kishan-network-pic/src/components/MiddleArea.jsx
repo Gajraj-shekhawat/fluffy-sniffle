@@ -3,35 +3,182 @@ import styles from './styles/middlearea.module.css';
 
 const MiddleArea = () => {
   return (
-    <div className={styles.container}>
-      <div>
-        {/* <h2>Justo Vulputate Torter Sem</h2> */}
-        <h4>
-          Lorem ips, nesadipisicing elit. Facere mollitia et quo
-          enim eum, nihil quae totam veritatis harum! Totam illum earum id,
-          dicta minima voluptates officiis ducimus omnis ut! tione ipsum
-          voluptatem ut pariatur ullam nisiluta arciquid aliquam? Lorem ipsum
-          dolor sit amet, conse!
-        </h4>
+    <>
+      <div className={styles.container}>
+        <div>
+          <h2>Justo Vulputate Tortor Sem</h2>
+          <h4>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, amet!
+            Voluptatem amet corrupti hic, illo, magnam consectetur ipsam
+            incidunt quidem eos quis, recusandae explicabo deserunt officiis cum
+            commodi accusantium sunt!
+          </h4>
+          <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+            dolores quasi adipisci recusandae maxime nesciunt in quo voluptatum
+            nostrum esse corporis debitis ipsam atque labore totam accusamus
+            laboriosam, natus laudantium. Magni labore veniam repellat
+            perferendis omnis illo eligendi sed veritatis iusto doloremque,
+            accusamus recusandae facilis aliquam est cum a voluptas laborum
+            voluptatum, porro itaque velit blanditiis? Mollitia necessitatibus
+            rerum
+            <div className={styles.float}>
+              <h5>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+                rem unde harum odio doloremque numquam eligendi eos. Harum
+                tempora nobis,
+              </h5>
+              <p>- Gajraj </p>
+            </div>
+            voluptatum. Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Provident incidunt itaque repellat, deleniti quis nihil sequi,
+            est hic odio ratione ab labore quia consequatur aspernatur animi?
+            Praesentium nesciunt consequuntur consequatur! Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Porro quos atque mollitia,
+            laboriosam similique possimus illo omnis fugit maxime quod
+            recusandae iste aspernatur rerum ducimus soluta, eaque ullam tenetur
+            earum! aspernatur animi? Praesentium nesciunt consequuntur
+            consequatur! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Porro quos atque mollitia, laboriosam similique possimus illo
+            omnis fugit maxime quod recusandae iste aspernatur rerum ducimus
+            soluta, eaque ullam tenetur earum!aspernatur animi? Praesentium
+            nesciunt consequuntur consequatur! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Porro quos atque mollitia, laboriosam
+            similique possimus illo omnis fugit maxime quod recusandae iste
+            aspernatur rerum ducimus soluta, eaque ullam tenetur earum!
+          </span>
+          <div className={styles.more_series}>
+            <div></div>
+            <div>
+              <h2>More in this series</h2>
+            </div>
+            <div></div>
+          </div>
+          <div className={styles.more_series_options}>
+            <div>
+              <img src="https://via.placeholder.com/150" alt="Pic" />
+            </div>
+            <div>
+              <h2>Lorem ipsum dolor sit amet consectetur</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                quibusdam aut ab laborum, Quae quibusdam aut ab laborum, Quae
+                quibusdam aut ab laborum,
+              </p>
+            </div>
+          </div>
+          <div className={styles.more_series_options}>
+            <div>
+              <img src="https://via.placeholder.com/150" alt="Pic" />
+            </div>
+            <div>
+              <h2>Lorem ipsum dolor sit amet consectetur</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                quibusdam aut ab laborum, Quae quibusdam aut ab laborum, Quae
+                quibusdam aut ab laborum,
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.right_div}>
+          <div className={styles.menu_items}>
+            <h6>Submenu</h6>
+            <div>
+              <p>Home</p>
+              <p>Contact</p>
+              <p>Home</p>
+              <p>Contact</p>
+            </div>
+          </div>
+          <br />
+          <div className={styles.profile}>
+            <img src="https://via.placeholder.com/150" alt="cover pic" />
+            <div className={styles.profile_row_container}>
+              <div className={styles.profile_row}>
+                <b>Name</b>
+                <p>Gajraj </p>
+              </div>
+              <div className={styles.profile_row}>
+                <b>Name</b>
+                <p>Gajraj </p>
+              </div>
+              <div className={styles.profile_row}>
+                <b>Name</b>
+                <p>Gajraj </p>
+              </div>
+            </div>
+            <div className={styles.profile_pic}>
+              <img src="https://via.placeholder.com/150" alt="" />
+            </div>
+          </div>
+          <div className={styles.message_tray}>
+            <h6>Send me a Message</h6>
+            <div>
+              Subject
+              <textarea></textarea>
+            </div>
+            <div>
+              Message
+              <textarea></textarea>
+            </div>
+            <button>Submit</button>
+          </div>
+          <div>
+            <h6>or Meet me at the office</h6>
+            <div>
+              <iframe
+                title="map"
+                src={`https://maps.google.com/maps?q=jaipur&t=&z=9&ie=UTF8&iwloc=&output=embed`}
+                frameBorder="0"
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className={styles.aa}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quas
-        aliquid molestias earum aliquam natus voluptatem tempore aut rerum animi
-        expedita id sapiente facere, quaerat laboriosam commodi dolor quae fuga.
-              <h2>uigguigugig l</h2>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga impedit quis neque voluptate provident animi odit dolore in libero vel architecto esse quae doloremque placeat dolores, soluta explicabo minus sequi!
-              Labore officiis exercitationem asperiores ipsam natus dolorum nam rerum quas sapiente ab aspernatur, quae laborum nobis nesciunt ducimus nulla voluptatum commodi expedita, qui architecto, facilis eligendi? Atque voluptates delectus beatae.
-              Soluta veniam nulla laborum iusto officiis eum facilis voluptas rerum, iste minus quae molestiae, nihil similique sequi praesentium qui consequuntur itaque quas incidunt consectetur neque commodi exercitationem ex repellendus! Dolor.
-              Fugiat alias omnis a velit ea possimus assumenda sed amet laboriosam temporibus? Rem eaque reiciendis unde quas illum id voluptatem perferendis atque, suscipit, fugiat esse dignissimos molestiae eligendi quisquam iste?
-              Placeat exercitationem veritatis facere voluptatem in illum voluptatum consequatur dolore labore, fugiat expedita repudiandae quae dolores? Reiciendis similique voluptatum ipsam porro. Fugiat eos, repellat exercitationem adipisci deleniti mollitia ea! Hic?
-              Aut dolorum reprehenderit distinctio fuga animi! Voluptate, eius facere asperiores possimus corrupti consectetur fugiat distinctio obcaecati sed alias vel ducimus tempora dolorem laborum dicta sequi nisi, quasi molestias? Dolores, labore.
-              Odit inventore eos quidem blanditiis ipsa corrupti aspernatur? Tempore, blanditiis ex! A, quisquam accusantium blanditiis odit officia facere deleniti ipsum reiciendis? Possimus cumque voluptas odit aspernatur voluptatem porro ducimus quaerat!
-              A, omnis totam officia amet optio hic ipsum harum? Amet, commodi repellat? Enim ipsum soluta ab voluptate quam qui tempore, officia cumque debitis corrupti libero adipisci quibusdam cupiditate possimus nobis!
-              Harum vero, cupiditate repellendus delectus earum sapiente itaque vitae similique libero iste illum dolorem. Quisquam dolor, mollitia exercitationem dolores voluptatibus eveniet at similique voluptas dolorum adipisci nesciunt temporibus neque architecto.
-              Id tenetur ipsam commodi esse amet consequatur maiores doloremque qui perferendis dolore, excepturi reprehenderit rem odio delectus maxime iure ullam? Quisquam distinctio accusantium nihil doloremque rem et quis impedit autem.
+      <div className={styles.related_articles}>
+        <div>
+          <img src="https://via.placeholder.com/250" alt="pic" />
+          <h2>Lorem ipsum dolor sit amet consectetur</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            fugit, libero pariatur temporibus,
+          </p>
+        </div>
+        <div>
+          <img src="https://via.placeholder.com/250" alt="pic" />
+          <h2>Lorem ipsum dolor sit amet consectetur</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            fugit, libero pariatur temporibus,
+          </p>
+        </div>
+        <div>
+          <img src="https://via.placeholder.com/250" alt="pic" />
+          <h2>Lorem ipsum dolor sit amet consectetur</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            fugit, libero pariatur temporibus,
+          </p>
+        </div>
+        <div>
+          <img src="https://via.placeholder.com/250" alt="pic" />
+          <h2>Lorem ipsum dolor sit amet consectetur</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            fugit, libero pariatur temporibus,
+          </p>
+        </div>
+        <div>
+          <img src="https://via.placeholder.com/250" alt="pic" />
+          <h2>Lorem ipsum dolor sit amet consectetur</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            fugit, libero pariatur temporibus,
+          </p>
+        </div>
       </div>
-    
-    </div>
+    </>
   );
 };
 
