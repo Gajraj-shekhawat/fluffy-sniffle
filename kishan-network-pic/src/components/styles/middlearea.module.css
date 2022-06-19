@@ -1,0 +1,10 @@
+/*.container {
+    display: flex;
+    padding: 0 10%;
+    gap: 10px;
+    /* text-align: justify; */
+/* * */
+
+h2{
+    float: right;
+}
