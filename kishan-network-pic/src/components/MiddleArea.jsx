@@ -5,7 +5,7 @@ const MiddleArea = () => {
   return (
     <>
       <div className={styles.container}>
-        <div>
+        <div style={{ width: '75%' }}>
           <h2>Justo Vulputate Tortor Sem</h2>
           <h4>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, amet!
@@ -37,15 +37,8 @@ const MiddleArea = () => {
             amet consectetur adipisicing elit. Porro quos atque mollitia,
             laboriosam similique possimus illo omnis fugit maxime quod
             recusandae iste aspernatur rerum ducimus soluta, eaque ullam tenetur
-            earum! aspernatur animi? Praesentium nesciunt consequuntur
-            consequatur! Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Porro quos atque mollitia, laboriosam similique possimus illo
-            omnis fugit maxime quod recusandae iste aspernatur rerum ducimus
-            soluta, eaque ullam tenetur earum!aspernatur animi? Praesentium
-            nesciunt consequuntur consequatur! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Porro quos atque mollitia, laboriosam
-            similique possimus illo omnis fugit maxime quod recusandae iste
-            aspernatur rerum ducimus soluta, eaque ullam tenetur earum!
+            earum! aspernatur animi? laboriosam similique possimus illo omnis
+            fugit maxime qu eaque ullam tenetur earum!
           </span>
           <div className={styles.more_series}>
             <div></div>
@@ -56,7 +49,7 @@ const MiddleArea = () => {
           </div>
           <div className={styles.more_series_options}>
             <div>
-              <img src="https://via.placeholder.com/150" alt="Pic" />
+              <img src="https://via.placeholder.com/140" alt="Pic" />
             </div>
             <div>
               <h2>Lorem ipsum dolor sit amet consectetur</h2>
@@ -69,7 +62,7 @@ const MiddleArea = () => {
           </div>
           <div className={styles.more_series_options}>
             <div>
-              <img src="https://via.placeholder.com/150" alt="Pic" />
+              <img src="https://via.placeholder.com/140" alt="Pic" />
             </div>
             <div>
               <h2>Lorem ipsum dolor sit amet consectetur</h2>
@@ -81,9 +74,10 @@ const MiddleArea = () => {
             </div>
           </div>
         </div>
+
         <div className={styles.right_div}>
           <div className={styles.menu_items}>
-            <h6>Submenu</h6>
+            <h4>Submenu</h4>
             <div>
               <p>Home</p>
               <p>Contact</p>
@@ -113,69 +107,83 @@ const MiddleArea = () => {
             </div>
           </div>
           <div className={styles.message_tray}>
-            <h6>Send me a Message</h6>
+            <h4>Send me a Message</h4>
             <div>
-              Subject
+              <label>Subject</label>
               <textarea></textarea>
             </div>
             <div>
-              Message
+              <label>Message</label>
+
               <textarea></textarea>
             </div>
             <button>Submit</button>
           </div>
-          <div>
-            <h6>or Meet me at the office</h6>
+          <div className={styles.map}>
+            <h4>Rr meet me at the office</h4>
+
+            <iframe
+              title="map"
+              src={`https://maps.google.com/maps?q=jaipur&t=&z=9&ie=UTF8&iwloc=&output=embed`}
+              frameBorder="0"
+            ></iframe>
             <div>
-              <iframe
-                title="map"
-                src={`https://maps.google.com/maps?q=jaipur&t=&z=9&ie=UTF8&iwloc=&output=embed`}
-                frameBorder="0"
-              ></iframe>
+              <p>Janta colony</p>
+              <p>Sikar road</p>
+              <p>Jaipur</p>
             </div>
           </div>
         </div>
       </div>
-      <div className={styles.related_articles}>
-        <div>
-          <img src="https://via.placeholder.com/250" alt="pic" />
-          <h2>Lorem ipsum dolor sit amet consectetur</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-            fugit, libero pariatur temporibus,
-          </p>
+      <div className={styles.below_articls}>
+        <div className={styles.related_articles}>
+          <div></div>
+          <div>
+            <h2>Related Articles</h2>
+          </div>
+          <div></div>
         </div>
-        <div>
-          <img src="https://via.placeholder.com/250" alt="pic" />
-          <h2>Lorem ipsum dolor sit amet consectetur</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-            fugit, libero pariatur temporibus,
-          </p>
-        </div>
-        <div>
-          <img src="https://via.placeholder.com/250" alt="pic" />
-          <h2>Lorem ipsum dolor sit amet consectetur</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-            fugit, libero pariatur temporibus,
-          </p>
-        </div>
-        <div>
-          <img src="https://via.placeholder.com/250" alt="pic" />
-          <h2>Lorem ipsum dolor sit amet consectetur</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-            fugit, libero pariatur temporibus,
-          </p>
-        </div>
-        <div>
-          <img src="https://via.placeholder.com/250" alt="pic" />
-          <h2>Lorem ipsum dolor sit amet consectetur</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-            fugit, libero pariatur temporibus,
-          </p>
+        <div className={styles.related_articles_options}>
+          <div>
+            <img src="https://via.placeholder.com/250" alt="pic" />
+            <h4>Lorem ipsum dolor sit amet consectetur</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              fugit, libero pariatur temporibus,
+            </p>
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/250" alt="pic" />
+            <h4>Lorem ipsum dolor sit amet consectetur</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              fugit, libero pariatur temporibus,
+            </p>
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/250" alt="pic" />
+            <h4>Lorem ipsum dolor sit amet consectetur</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              fugit, libero pariatur temporibus,
+            </p>
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/250" alt="pic" />
+            <h4>Lorem ipsum dolor sit amet consectetur</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              fugit, libero pariatur temporibus,
+            </p>
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/250" alt="pic" />
+            <h4>Lorem ipsum dolor sit amet consectetur</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              fugit, libero pariatur temporibus,
+            </p>
+          </div>
         </div>
       </div>
     </>

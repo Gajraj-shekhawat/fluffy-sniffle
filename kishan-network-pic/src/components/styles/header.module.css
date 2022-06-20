@@ -2,7 +2,7 @@
     background-color: #28373e;
     display: flex;
     justify-content: space-between;
-    padding: 0 10%;
+    padding: 0 20%;
 }
 .heading_options{
     display: flex;
@@ -15,7 +15,7 @@
 .heading+div{
     background-color: #8198a0;
     color: white;
-    padding: 40px 0px 40px 10%;
+    padding: 40px 20%;
    
 }
 .heading+div span{

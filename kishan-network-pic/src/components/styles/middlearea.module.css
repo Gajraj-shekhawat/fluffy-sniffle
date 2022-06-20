@@ -1,12 +1,17 @@
 .container {
     display: flex;
-    padding: 0 10%;
-    gap: 10px;
+    padding: 0 20%;
+    gap: 5%;
+
 }
 
 .float {
     float: right;
-    width: 25%;
+    width: 55%;
+    padding-left: 5%;
+    font-size: 19px;
+    color: rgb(136, 150, 150);
+
 }
 
 .float>p {
@@ -17,13 +22,14 @@
     clear: both;
     display: flex;
     place-items: center;
-    justify-content: space-around;
+    margin-top:100px
+
 }
 
 .more_series>div:first-child,
 .more_series>div:last-child {
     width: 30%;
-    height: 1px;
+    height: 2px;
     background-color: grey;
 
 }
@@ -35,20 +41,34 @@
 
 .more_series_options {
     display: flex;
-    gap: 10px
+    gap: 10px;
+    place-items: center;
+
 }
 
 .more_series_options h2 {
     color: #0fdbc9;
+    font-size: 1.4vw;
+}
+
+.more_series_options img {
+    border-radius: 5px;
 }
 
 .right_div {
-    width: 100%;
+    width: 20%;
+    margin-top: 10px;
+    box-sizing: border-box;
 }
 
 .menu_items {
-    border: 1px solid black;
+    border: 1px solid rgb(231, 225, 225);
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+}
 
+.menu_items>h4 {
+    text-align: center;
 }
 
 .menu_items p:hover {
@@ -57,38 +77,38 @@
     color: white;
 }
 
-.menu_items>h6 {
-    text-align: center;
-}
 
 .menu_items p {
-    padding-left: 10px;
+    padding-left: 20px;
     color: #0fdbc9;
+    margin-top: -15px;
 }
 
 .profile {
     background-color: rgb(192, 190, 190);
     position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .profile_row {
     display: flex;
     gap: 10px;
     place-items: center;
-    line-height: 5px;
-    padding-left: 12px;
+    line-height: 1px;
+    font-size: 13px;
 }
 
 .profile>img {
     width: 100%;
     object-fit: cover;
-    height: 100px;
+    height: 80px;
     border-radius: 5px;
 }
 
 .profile_pic {
     position: absolute;
-    top: 30%;
+    top: 50px;
     left: 35%
 }
 
@@ -105,8 +125,14 @@
 
 .message_tray {
     background-color: grey;
-    box-sizing: border-box;
     padding: 10px;
+    border-radius: 0 0 5px 5px;
+    
+}
+
+.message_tray>h4 {
+    text-align: center;
+    font-size: 13px;
 }
 
 .message_tray button {
@@ -114,21 +140,74 @@
     background-color: #0fdbc9;
     color: white;
     border: none;
-    padding: 9px 0;
+    padding: 10px 0;
     border-radius: 3px;
 }
-.message_tray >div{
-margin-bottom: 15px;
+
+.message_tray>div textarea {
+    margin-bottom: 15px;
+    width: 98%;
+    border-radius: 5px;
 }
-.message_tray>h6{
-    text-align: center;
+.message_tray>div:nth-child(3) textarea{
+    height:80px
 }
-.related_articles{
+ .map{
+    background-color:rgb(218, 203, 203);
+    border-radius: 5px;
+ }
+ .map h4{
+    text-align:center;
+    font-size:13px;
+ }
+ .map iframe{
+    width:100%;
+    height:100px
+ }
+ .map div{
+    padding: 1% 5%;
+    font-size:13px;
+ }
+.below_articls{
+    padding: 40px 20%;
+}
+.related_articles {
     display: flex;
-    flex-wrap: wrap;
-    padding-left: 10%;
+    place-items: center;
+    margin-top: 50px;
+    gap:2%
 }
-.related_articles> div{
-    width: 350px;
-    padding: 40px 40px 40px 0;
+
+.related_articles>div:first-child,
+.related_articles>div:last-child {
+    flex-grow: 2;
+    height: 2px;
+    background-color: grey;
+
+}
+
+.related_articles>div:nth-child(2) {
+    width: fit-content;
+
+}
+
+
+.related_articles_options {
+    display: flex;
+    margin-top:40px;
+    gap:5%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.related_articles_options>div {
+    width: 240px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid grey;
+    margin: 10px;
+    border-radius: 0 0 5px 5px;
+    padding:10px
+}
+.related_articles_options>div img{
+    width: 100%;
+    object-fit: cover;
 }

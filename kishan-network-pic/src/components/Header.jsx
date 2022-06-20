@@ -2,7 +2,9 @@ import React from 'react';
 import styles from './styles/header.module.css';
 const Header = () => {
   return (
+  
     <div>
+      
       <div className={styles.heading}>
         <div className={styles.logo}>
           <h3>OYODO</h3>
