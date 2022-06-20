@@ -1,24 +1,55 @@
-.heading{
+.heading {
     background-color: #28373e;
     display: flex;
     justify-content: space-between;
     padding: 0 20%;
 }
-.heading_options{
+
+.heading_options {
     display: flex;
     gap: 40px;
     color: #72858a;
 }
-.logo{
+
+.logo {
     color: #2ec3c2;
 }
-.heading+div{
+
+.heading+div {
     background-color: #8198a0;
     color: white;
     padding: 40px 20%;
+
+}
+.heading_options h5:hover{ 
+    cursor: pointer;
    
 }
-.heading+div span{
+.menu{
+    display: None;
+    
+}
+
+.heading+div span {
     font-size: 1.5rem;
     background-color: #eeac56;
+}
+
+@media only screen and (max-width: 700px) {
+    .heading {
+        padding: 0;
+    }
+
+    .heading+div {
+        padding: 0;
+    }
+    .heading_options{
+        display: none;
+    }
+        .menu {
+            display: flex;
+            place-items: center;
+            cursor: pointer;
+            
+        }
 }

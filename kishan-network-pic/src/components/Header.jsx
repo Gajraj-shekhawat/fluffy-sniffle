@@ -1,10 +1,9 @@
-import React from 'react';
+
 import styles from './styles/header.module.css';
+import {AiOutlineMenu} from 'react-icons/ai'
 const Header = () => {
   return (
-  
     <div>
-      
       <div className={styles.heading}>
         <div className={styles.logo}>
           <h3>OYODO</h3>
@@ -15,6 +14,10 @@ const Header = () => {
           <h5>ULTRICIES</h5>
           <h5>BIBENDUM</h5>
           <h5>MAGMA</h5>
+        </div>
+        <div className={styles.menu}>
+          <AiOutlineMenu color={ 'white'} />
+          
         </div>
       </div>
       <div>
@@ -28,8 +31,7 @@ const Header = () => {
         </span>
         <br />
         <span>Lorem ipsum dolor sit amet consecte</span>
-          </div>
-         
+      </div>
     </div>
   );
 };
